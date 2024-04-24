@@ -79,7 +79,7 @@ M3角ナットをスリットに立てます。
 
 ### RP2040-Zeroへのテストファームウェアの書き込み
 こちらのuf2ファイルをダウンロードしてください。  
-- !URL!
+- [tarohayashi_undertow_default.uf2](https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/tarohayashi_undertow_default.uf2)
 
 BOOTボタンを押しながらUSBケーブルでPCと接続するとRPI-RP2というドライブとして認識されるので、ダウンロードしたuf2ファイルをドラッグアンドドロップするとキーボードとして認識されるようになります。  
 ![](img/17_rp2040_zero_1.jpg) 
@@ -127,7 +127,7 @@ USBケーブルを差し込んで側面ユニットの反応を確かめまし�
 ### ファームウェアの更新
 
 こちらのuf2ファイルをダウンロードしてください。
--  !URL!
+-  [tarohayashi_undertow_via.uf2](https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/tarohayashi_undertow_via.uf2)
 
 基盤にBOOTと書かれている側の2キーを押しながらUSBケーブルを接続するとRPI-RP2ドライブとして認識されます。
 ![](img/)  
@@ -135,23 +135,41 @@ USBケーブルを差し込んで側面ユニットの反応を確かめまし�
 > うまくいかない場合はテストファームウェアを書き込んだ時と同様にRP2040-ZeroのBOOTボタンを押しながらUSBケーブルを差しこむか、BOOTボタンを押しながらRESETボタンを押したあと少し待ってBOOTボタンから指を離してください。
 
 RPI-RP2ドライブにダウンロードしたuf2ファイルをドラッグアンドドロップしたらファームウェアの更新完了です。  
+Remapに接続するとキーの変更をすることができます。
+- 
 
-## キーのカスタマイズ
+### トラックボールやジョイスティックの設定
+標準では
 
-### 保存と復元
+FUNCTIONSタブのVIA USER KEYにOSに関わらず使えるショートカットやトラックボールの設定ができるキーがあります。
 
-### 形の変更
-裏表、前後、Alternaとの切り替えはこちらから行えます。
-
-### キーの割り当て
-下の一覧からを上のキーにドラッグアンドドロップするとキー設定を変更することができます。
-![](img/)
-
-### 特殊なキーの割り当て
-FUNCTIONSタブのVIA USER KEYにOSに関わらず使えるショートカットやトラックボール、OLEDなどの設定をするキーがあります。
-
-### LEDの調整
+|Remapのキー名|機能|
+|-|-|
+|Speed + SIDE0|SIDE0側の速度、感度を上げる|
+|Speed - SIDE0|SIDE0側の速度、感度を下げる|
+|Angle + SIDE0|SIDE0側の角度を増やす|
+|Angle - SIDE0|SIDE0側の角度を減らす|
+|Invert X SIDE0|SIDE0側の軸を片方反転させる|
+|Mode Change SIDE0|SIDE0側の入力モードを変える|
+|Speed + SIDE1|SIDE1側の速度、感度を上げる|
+|Speed - SIDE1|SIDE1側の速度、感度を下げる|
+|Angle + SIDE1|SIDE1側の角度を増やす|
+|Angle - SIDE1|SIDE1側の角度を減らす|
+|Invert X SIDE1|SIDE1側の軸を片方反転させる|
+|Mode Change SIDE1|右手側の入力モードを変える|
+|Invert Scroll|スクロール方向を反転する|
+|Toggle Auto Mouse|オートマウス機能の切り替え|
+|OLED Mode|OLEDの機能の切り替え|
+|D-Pad Mode|斜め入力除外機能の切り替え|
+|Cursor Mode|押している間だけカーソル移動|
+|Scroll Mode|押している間だけスクロール|
+|Key Input  Mode|押している間だけキー入力モード|
+|Slow Mode|押している間だけ速度が落ちる|
 
 ## その他
-
-
+### ファームウェアのコード
+- https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/undertow
+### アクリルプレートのデータ
+- 
+### 販売サイト
+- BOOTH https://tarohayashi.booth.pm/items/5676575
