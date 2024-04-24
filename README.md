@@ -33,9 +33,9 @@
 
 ## 組み立て
 Undertow / Undertow Alternaには裏表と前後がありお好みの形状で組み立てることができます。 
-![](img/3_) 
+![](img/3_all.jpg) 
 ビルドガイドではUndertowを使いこのように組み立てます。  
-![](img/4_) 
+![](img/4_sample.jpg) 
 
 ### （オプション）LEDを発光させる場合
 MOSFETと10kΩ抵抗をはんだ付けします。  
@@ -130,17 +130,18 @@ USBケーブルを差し込んで側面ユニットの反応を確かめまし�
 -  [tarohayashi_undertow_via.uf2](https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/tarohayashi_undertow_via.uf2)
 
 基盤にBOOTと書かれている側の2キーを押しながらUSBケーブルを接続するとRPI-RP2ドライブとして認識されます。
-![](img/)  
+![](img/28_boot.jpg)  
 > [!NOTE] 
 > うまくいかない場合はテストファームウェアを書き込んだ時と同様にRP2040-ZeroのBOOTボタンを押しながらUSBケーブルを差しこむか、BOOTボタンを押しながらRESETボタンを押したあと少し待ってBOOTボタンから指を離してください。
 
 RPI-RP2ドライブにダウンロードしたuf2ファイルをドラッグアンドドロップしたらファームウェアの更新完了です。  
-Remapに接続するとキーの変更をすることができます。
-- 
+Remapでキーを変更できるようになりました。
+- https://remap-keys.app
 
 ### トラックボールやジョイスティックの設定
-標準では
+標準では各キースイッチを長押しすることで設定用のレイヤーに移行するようになっています。
 
+  
 FUNCTIONSタブのVIA USER KEYにOSに関わらず使えるショートカットやトラックボールの設定ができるキーがあります。
 
 |Remapのキー名|機能|
@@ -170,6 +171,6 @@ FUNCTIONSタブのVIA USER KEYにOSに関わらず使えるショートカット
 ### ファームウェアのコード
 - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/undertow
 ### アクリルプレートのデータ
-- 
+- https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/undertow_acrylic.zip
 ### 販売サイト
 - BOOTH https://tarohayashi.booth.pm/items/5676575
