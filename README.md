@@ -79,7 +79,7 @@ M3角ナットをスリットに立てます。
 
 ### RP2040-Zeroへのテストファームウェアの書き込み
 こちらのuf2ファイルをダウンロードしてください。  
-- [tarohayashi_undertow_default.uf2](https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/tarohayashi_undertow_default.uf2)
+- [tarohayashi_undertow_default.uf2](https://github.com/Taro-Hayashi/Undertow/releases/latest/download/tarohayashi_undertow_default.uf2)
 
 BOOTボタンを押しながらUSBケーブルでPCと接続するとRPI-RP2というドライブとして認識されるので、ダウンロードしたuf2ファイルをドラッグアンドドロップするとキーボードとして認識されるようになります。  
 ![](img/17_rp2040_zero_1.jpg) 
@@ -126,7 +126,7 @@ USBケーブルを差し込んで側面ユニットの反応を確かめまし�
 ### ファームウェアの更新
 
 こちらのuf2ファイルをダウンロードしてください。
--  [tarohayashi_undertow_via.uf2](https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/tarohayashi_undertow_via.uf2)
+-  [tarohayashi_undertow_via.uf2](https://github.com/Taro-Hayashi/Undertow/releases/latest/download/tarohayashi_undertow_via.uf2)
 
 基盤にBOOTと書かれている側の2キーを押しながらUSBケーブルを接続するとRPI-RP2ドライブとして認識されます。
 ![](img/28_boot.jpg)  
