@@ -194,9 +194,15 @@ RemapにはFUNCTIONSタブのVIA USER KEYにトラックボールやジョイス
 |Increase Max Offset|OFFSET_MAX_I|大きい値を無視する範囲を拡大（ゲームモードのみ）（最大値：200）|
 
 ## その他
+### ファームウェアまとめ
+- テスト用 https://github.com/Taro-Hayashi/Undertow/releases/latest/download/tarohayashi_undertow_test.uf2
+- Remap用 https://github.com/Taro-Hayashi/Undertow/releases/latest/download/tarohayashi_undertow_default.uf2
+  
 ### ファームウェアのコード
 - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/undertow
+  
 ### アクリルプレートのデータ
 - https://github.com/Taro-Hayashi/Undertow/releases/download/0.24.7/undertow_acrylic.zip
+  
 ### 販売サイト
 - BOOTH https://tarohayashi.booth.pm/items/5676575
